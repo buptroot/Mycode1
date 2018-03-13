@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1520586585 source:/root/Desktop/c/sukodu/sukodu/sukodu.c
+	<stdio.h>
+
+1520586617 source:/root/Desktop/c/sukodu/sukodu/main.c
+
+1520586617 source:/root/Desktop/candcpp/sukodu/sukodu/main.c
+
+1520586585 source:/root/Desktop/candcpp/sukodu/sukodu/sukodu.c
+	<stdio.h>
+

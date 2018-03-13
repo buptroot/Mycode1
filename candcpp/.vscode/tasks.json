@@ -1,0 +1,15 @@
+{  
+    // See https://go.microsoft.com/fwlink/?LinkId=733558  
+    // for the documentation about the tasks.json format  
+    "version": "0.1.0",  
+    "command": "g++",                //这里将”echo"修改为“g++"  
+    "isShellCommand": true,  
+    "args": [                               //这里是编译参数，和 编译命令 中参数一一对应就行了                          
+        "-g",                               //生成调试信息  
+        "${workspaceRoot}/Test.cpp",<span style="white-space:pre">  </span>    //源文件一  
+        "${workspaceRoot}/Array.cpp",       //源文件二（可省略）  
+        "-o",                               //编译参数  
+        "${workspaceRoot}/Test.out"         //生成的目标文件（编译文件），其名字要与调试配置文件：launch.json中的名字相同  
+    ],  
+    "showOutput": "always"  
+}  
